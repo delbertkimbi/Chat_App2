@@ -8,11 +8,11 @@ class HomePAge extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.fromLTRB(10, 30, 10, 10),
         child: Column(
           children: [
             Image.asset(
-              'assets/images/image1.png',
+              'assets/image1.png',
               alignment: Alignment.topCenter,
               height: 271,
               width: 262,
