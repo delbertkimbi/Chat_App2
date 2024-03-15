@@ -17,13 +17,13 @@ class HomePAge extends StatelessWidget {
               Column(
                 children: [
                   Image.asset(
-                    'assets/image1.png',
+                    'assets/images/image1.png',
                     alignment: Alignment.topCenter,
                     height: 271,
                     width: 262,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   Container(
